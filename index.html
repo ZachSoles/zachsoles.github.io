@@ -1,1 +1,110 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico?v=2"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Zach Soles"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Zach Soles</title><link href="/static/css/2.1a02f21c.chunk.css" rel="stylesheet"><link href="/static/css/main.51c2f7ff.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],p=0,s=[];p<i.length;p++)a=i[p],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&s.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"56156f39"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/",a.oe=function(e){throw console.error(e),e};var i=this["webpackJsonpmy-app"]=this["webpackJsonpmy-app"]||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var f=c;t()}([])</script><script src="/static/js/2.1ee4c6f3.chunk.js"></script><script src="/static/js/main.04a718f2.chunk.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fbfbf9" />
+    <meta name="description" content="Zach Soles — Senior AI/ML Engineer." />
+    <meta property="og:title" content="Zach Soles — Senior AI/ML Engineer" />
+    <meta property="og:description" content="Software engineering, applied AI/ML, and a selection of projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zachsoles.github.io/" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('site-color-mode');
+          const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme = saved === 'light' || saved === 'dark' ? saved : (systemDark ? 'dark' : 'light');
+        } catch (_) {
+          document.documentElement.dataset.theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+      })();
+    </script>
+    <title>Zach Soles — Senior AI/ML Engineer</title>
+  </head>
+  <body>
+    <header class="site-header page-wrap">
+      <a class="wordmark" href="#top">Zach Soles<span class="wordmark-dot">.</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="/blog/">Blog</a>
+        <a href="/static/media/soles_resume.5c76c38a.pdf" target="_blank" rel="noreferrer">Résumé ↗</a>
+        <div class="theme-control" aria-label="Color theme">
+          <span>Light</span>
+          <button class="theme-switch" id="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><span class="switch-track"><span class="switch-thumb"></span></span></button>
+          <span>Dark</span>
+          <button class="theme-auto" id="theme-auto" type="button" aria-pressed="true" title="Follow device appearance">Auto</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top" class="page-wrap">
+      <section class="intro" aria-labelledby="name">
+        <div class="intro-content">
+          <p class="eyebrow">SENIOR AI / ML ENGINEER <span>·</span> PHILADELPHIA, PA</p>
+          <h1 id="name">Zach Soles</h1>
+          <p class="intro-copy">Senior AI/ML engineer specializing in MLOps and the end-to-end development of machine learning systems, from model training and evaluation to production deployment.</p>
+          <div class="intro-links">
+            <a href="mailto:zacsoles@gmail.com">zacsoles@gmail.com</a>
+            <a href="https://github.com/ZachSoles" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/zachery-soles/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+        <img class="profile-photo" src="/static/media/zach-soles-profile.jpg" alt="Zach Soles" width="200" height="245" />
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-heading">
+        <div class="section-label"><h2 id="experience-heading">Experience</h2><span>01</span></div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <p class="experience-date">FEB 2024 — PRESENT</p>
+            <div><h3>IT Infrastructure Technician <span>·</span> U.S. Air Force</h3></div>
+          </article>
+          <article class="experience-item">
+            <p class="experience-date">AUG 2023 — PRESENT</p>
+            <div>
+              <h3>Lockheed Martin</h3>
+              <ul class="role-history">
+                <li><span class="role-history-date">MAY 2026 — PRESENT</span><span class="role-history-title">Senior AI Machine Learning Engineer</span></li>
+                <li><span class="role-history-date">JAN 2024 — MAY 2026</span><span class="role-history-title">AI Machine Learning Engineer</span></li>
+                <li><span class="role-history-date">SEP 2023 — JAN 2024</span><span class="role-history-title">AI/ML SkillBridge Intern</span></li>
+              </ul>
+            </div>
+          </article>
+          <article class="experience-item">
+            <p class="experience-date">MAY 2023 — JUL 2025</p>
+            <div><h3>Teaching Assistant <span>·</span> Georgia Institute of Technology</h3></div>
+          </article>
+          <article class="experience-item">
+            <p class="experience-date">NOV 2022 — AUG 2023</p>
+            <div><h3>Engineer <span>·</span> USAF Project Arc</h3></div>
+          </article>
+          <article class="experience-item">
+            <p class="experience-date">FEB 2020 — FEB 2024</p>
+            <div><h3>Aerospace Propulsion Journeyman <span>·</span> U.S. Air Force</h3></div>
+          </article>
+          <article class="experience-item">
+            <p class="experience-date">JUN 2019 — AUG 2019</p>
+            <div><h3>Software Engineering Intern <span>·</span> Kaleido Health Solutions</h3></div>
+          </article>
+        </div>
+        <div class="education-line"><span>EDUCATION</span><p>M.S. Computer Science · Georgia Institute of Technology (2021–2024)<br />B.S. Computer Science · West Chester University (2016–2019)</p></div>
+      </section>
+
+      <section class="content-section projects-section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-label"><h2 id="projects-heading">Projects</h2><span>02</span></div>
+        <div class="project-list" id="project-list" aria-live="polite"><p class="loading-copy">Loading recent public projects…</p></div>
+        <div class="projects-footer"><p id="project-note">Recent public repositories from GitHub.</p><a href="https://github.com/ZachSoles?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-wrap"><span>© <span id="year"></span> Zach Soles</span><span>Built with care.</span></footer>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
