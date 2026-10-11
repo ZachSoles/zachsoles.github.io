@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-10T00:00:00.000Z",
+  "repositories": [
+    { "name": "SortingAlgorithmVisualizer", "description": "See how different sorting algorithms work in a React and TypeScript visualization.", "language": "TypeScript", "url": "https://github.com/ZachSoles/SortingAlgorithmVisualizer", "stars": 0, "pushed_at": "", "homepage": "" },
+    { "name": "Chip8-Emulator", "description": "A CHIP-8 emulator written in C++.", "language": "C++", "url": "https://github.com/ZachSoles/Chip8-Emulator", "stars": 0, "pushed_at": "", "homepage": "" },
+    { "name": "C-Shell", "description": "A shell developed in C.", "language": "C", "url": "https://github.com/ZachSoles/C-Shell", "stars": 0, "pushed_at": "", "homepage": "" },
+    { "name": "TabView", "description": "A tabbed view SwiftUI package.", "language": "Swift", "url": "https://github.com/ZachSoles/TabView", "stars": 4, "pushed_at": "", "homepage": "" }
+  ]
+}
